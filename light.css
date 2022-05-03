@@ -1,0 +1,382 @@
+
+      html{
+        scroll-behavior: smooth;
+      }
+.glyphicon {
+       font-size: 40px;
+       color:rgb(165, 55, 55);
+     }
+*{
+ 
+    font-family:Tajawal;
+}
+.bg {
+    text-align: center;
+    height: 300px;
+    position: relative;
+    background:none;
+    padding: 80px;
+}
+.bg:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(https://images.pexels.com/photos/4869123/pexels-photo-4869123.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity : 0.7;
+    z-index: -1;
+  
+}
+
+a{
+    font-size: 15px;
+}
+ 
+.glyphicon {
+       font-size: 50px;
+       color:#77789F;
+       
+     }
+*{
+    font-family:Tajawal;
+    
+}
+.team img  {
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.social{
+  margin-top: -20px;
+}
+.fa{
+  font-size: 15px;
+  color: white;
+  padding: 6px;
+  width: 35px;
+  height:35px ;
+  background-color: #57517A;
+  text-decoration: none;
+  border-radius: 50%;}
+  
+
+  
+
+  .about-section-bg{
+  background-color: #f8e1e3;
+  
+  
+
+}
+.about-section{
+        background-size: 100%;
+        padding: 40px 40px;
+    }
+.aboutimg{
+  max-height:350px ;
+ 
+}
+.inner-container{
+    width: 500px;
+    height: auto;
+    
+  
+    padding: 20px 20px;
+  
+  
+}
+
+.inner-container h1{
+    margin-bottom: 25px;
+
+}
+.text{
+    font-size: 16px;
+    font-family: Tajawal;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 40px;
+    }
+}
+.social a{
+    margin: 8px;
+}
+.fa{
+    font-size: 20px;
+
+}
+.btn-light{
+  background-color: #b69cab;
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+}
+.btn-info ::after{
+  background-color: #af9ea8;
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+
+
+
+.portfolio .portfolio-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 350px;
+  height: 300px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.page-section-heading{
+    color: cornsilk;
+    font-weight: 800;
+    padding-bottom: 30px ;
+}
+.img-fluid{
+    min-width: 350px;
+  height: 300px;
+  object-fit: cover;
+}
+.portfolio .portfolio-item .portfolio-item-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: #C26B9E;
+}
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+  opacity: 0.8;
+}
+.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+  font-size: 1.5rem;
+}
+
+.portfolio-modal .btn-close {
+  color: #1abc9c;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.portfolio-modal .portfolio-modal-title {
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+@media (min-width: 992px) {
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+
+
+.darkfooter{
+    padding:30px 0;
+    color:#f0f9ff;
+    background-color: #3f3a5a;
+}
+
+.darkfooter h1,h2,h3{
+    font-weight: bold;
+    margin-bottom: 12px;
+
+}
+
+.darkfooter ul {
+  text-decoration: none;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 15px;
+
+}
+
+
+.darkfooter ul a{
+    color: mintcream;
+    opacity:0.6;
+    font-size: 15px;text-decoration: none;
+
+}
+.darkfooter p{
+    color: mintcream;
+    opacity:0.6;
+    font-size: 13px;
+    
+
+}
+
+.darkfooter ul a:hover {
+  opacity:0.9;
+}
+.copyright{
+    margin-top: 20px;
+    opacity:0.6;
+    
+}
+.social {
+    margin-top: 15px;
+}
+ .social  a{
+    margin: 5px;
+}
+
+.fa:hover{
+    color: mintcream;
+    opacity:0.6;text-decoration: none;
+
+}
+
+@media (max-width:767px) {
+  .darkfooter  {
+    text-align:center;
+    padding-bottom:20px;
+  }}
+.colorsection{
+  display: block;
+}
+.colorpallate{
+  height: 100px;
+  width: 120px;
+}
+@media (max-width:1000px){
+  .colorsection{
+    margin-bottom: 40px;
+    margin-left:auto;
+}
+  .colorpallate{
+  height: 80px;
+  max-width: 80%;
+  width:700px;
+  margin: 20px;
+}
+}
+@media (max-width:767px){
+  .aboutimg{
+      max-width:80%;
+    }}
+@media (max-width:767px){
+  .colorsection{
+    margin-bottom: 40px;
+}
+  .colorpallate{
+  height: 80px;
+  width:450px;
+  max-width: 80%;
+  margin: 20px;
+}
+}
+#pricetable{
+  background-color: #f8e1e3;
+  
+}
+
+ .pricecontent{
+  background-color: white;
+
+}
+ .headprice{
+  background-color: #ebdff1;
+}
+.headprice:hover{
+  background-color: #c6c1dd;
+}
+
+
+ .head span{
+  color: #C26B9E;
+ 
+  font-size: 17px;
+  font-weight: 500;
+} 
+.featurelist ul{
+  width: 100%;
+}
+ .featurelist ul li{
+  color: #a7a7a7;
+
+}
+.featurelist ul li span{
+  color: #414141;
+}
+.featurelist ul  :hover{
+  background-color: #b9badf;
+  border-left:  1px solid #313133;
+}
+
+
+#pricetable{
+  margin: 50px 0 50px 0;}
+  #pricetable .pricecontent{
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}  
+.price{
+  color: #414141;
+  width: 100%;
+  font-size: 30px;
+  font-weight: 500;
+  display: block;
+  text-align: center;
+  padding: 30px 0 10px;
+}
+.featurelist{
+  list-style: none;
+  text-align: center;
+  color: rgb(138, 138, 138);
+  font-size: 15px;
+  font-weight: 400;
+}
+.featurelist li{
+  margin: 0 35px;
+  padding: 20px 15px;
+  width: 100%;
+  
+}
+.pricecontent{
+  margin: 20px;
+  max-width: 95%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#btnprice
+{
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}

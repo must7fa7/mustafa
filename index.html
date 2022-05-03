@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+
+
+     
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="مطعمك" />
+        <meta property="og:description" content="بنوصل طلبك لباب بيت عملاءك." />
+        <meta property="og:image" content="https://i.ibb.co/tMDGsYd/og.jpg"/>
+        <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+        <link rel="stylesheet" href="style.css" />
+        
+        
+    <link id="mystylesheet" rel="stylesheet" type="text/css" href="dark.css">
+    <link id="mystylesheet" rel="stylesheet" type="text/css" href="light.css">
+
+    
+    
+    
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <title>مطعمك</title>
+      </head>
+      <body>
+
+        <style>
+        .portfolio .portfolio-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 350px;
+  height: 300px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.page-section-heading{
+    color: cornsilk;
+    font-weight: 800;
+    padding-bottom: 30px ;
+    flex-direction: row;
+}
+.img-fluid{
+    min-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  flex-direction: row;
+}
+.portfolio .portfolio-item .portfolio-item-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: #bbadb5;
+  flex-direction: row;
+}
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+  opacity: 0.8;
+  flex-direction: row;
+}
+.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+  font-size: 1.5rem;
+  flex-direction: row;
+}
+
+.portfolio-modal .btn-close {
+  color: #1abc9c;
+  font-size: 2rem;
+  padding: 1rem;
+  flex-direction: row;
+}
+.portfolio-modal .portfolio-modal-title {
+  font-size: 2.25rem;
+  line-height: 2rem;
+  flex-direction: row;
+}
+@media (min-width: 992px) {
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+
+        </style>
+
+<script>
+
+  var setTheme = localStorage.getItem('theme')
+      console.log('theme:', setTheme)
+  
+      if (setTheme == null){
+        swapStyle('light.css')
+        
+      }else{
+        swapStyle(setTheme)
+      }
+  
+      function swapStyle(sheet){
+        document.getElementById('mystylesheet').href = sheet
+        localStorage.setItem('theme', sheet)
+      }
+  
+  
+  </script>
+
+        
+        <div >
+        <div class="" >
+          <div class="nav-container" >
+            <nav>
+                <ul>
+                  
+                    <li>
+                      <a href="#">الصفحة الرئيسية</a>
+                    </li>
+                    &nbsp;
+                    &nbsp;
+                    <li><a href="#aboutus">من نحن</a></li>
+                    &nbsp;
+                    &nbsp;
+
+                    <li><a href="#fg">اصناف الطعام </a></li>
+                    &nbsp;
+                    &nbsp;
+                    <li >
+                      <a style="height: 35px;margin-top: 10px;" class="contact-us " href="mu.html"> تواصل معنا</a>
+                   </li>
+                    
+                  </ul>
+
+                               <h3 class="logo" style="color: gold;">مطعمك</h3>
+                               &nbsp;
+                    &nbsp;
+
+                               <div class="row " >
+      
+    
+                                <a  onclick="swapStyle('dark.css')" style="color: rgb(36, 41, 46);font-size: 20px;"class="
+                                  fa fa-moon-o "></a>
+                                 
+                                <a onclick="swapStyle('light.css')" style="color: font-size 20px;"class="
+                                  fa fa-sun-o "></a>
+                            
+                             
+                                  </div>
+              
+            </nav> 
+          </div>
+          <div class="hero">
+            <div class="content">
+              <h1>بدك <span> اكلك</span> يجهز بسرعة؟</h1>
+              <h4 > 
+                مطعمك شركة بتقدملك أفضل وأسرع انواع الطعام في العراق والوطن العربي 
+              </h4>
+              <a href="#qualities" class="btn">إعرف أكثر عنا</a>
+            </div>
+          </div>
+        </div> 
+
+
+          
+          <section  id="qualities">
+            <h1>ماذا نقدم لكم؟</h1>
+            <div class="qualities-container">
+            <div class="quality">
+              <div class="header-container">
+                <i class="fas fa-tachometer-alt"></i>
+                <h3>سرعة كبيرة</h3>
+              </div>
+              <p>
+                سرعة كبيرة في اعداد وتجهيز الطعام والحفلات وكافة المناسبات والاعياد من غير كلل او ملل
+              </p>
+            </div>
+            <div class="quality">
+              <div class="header-container">
+                <i class="fas fa-star"></i>
+                <h3>جودة عالية</h3>
+              </div>
+              <p>
+                سنقوم بتجهيزكم باجود الاطعمه وباستخدام اجود انواع الخضار في اعداد الطعام واطزجها
+              </p>
+            </div>
+            <div class="quality">
+              <div class="header-container">
+                <i class="fas fa-money-bill-wave-alt"></i>
+                <h3>أسعار رمزية</h3>
+              </div>
+              <p>
+                نقدم لكم الطعام بافضل الاسعار وانسبها في كافة انحاء العراق  وبسعر يا بلاااااااش
+              </p>
+            </div>
+          </section>
+
+
+
+        
+                
+                   
+              <section id="portfoilo" style=" margin-bottom: 25px;" style="background-color: #d6d6e2 ;"  class="page-section portfolio" id="fg">
+                <div class="container">
+                    <!-- Portfolio Section Heading-->
+                    <h1 style="margin-top: 25px; margin-bottom: 25px; justify-content: center;
+                    text-align: center;"  class=" font-weight-bold my-5 text-center">اصناف الطعام </h2>
+                    <!-- Icon Divider-->
+                  
+                    <!-- Portfolio Grid Items-->
+                    <div class="row justify-content-center">
+                        <!-- Portfolio Item 1-->
+                        <div class="col-md-6 col-lg-4 mb-5">
+                            <div class="portfolio-item mx-auto" data-bs-toggle="modal" >
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus"></i>
+                                    <h3 >عنوان الصورة</h3>
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="4.jpg" alt="..." />
+                            </div>
+                        </div>
+                        <!-- Portfolio Item 2-->
+                        <div class="col-md-6 col-lg-4 mb-5">
+                            <div class="portfolio-item mx-auto" >
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus"></i>
+                                        <h3>عنوان الصورة</h3></div>
+                                </div>
+                                <img class="img-fluid" src="4.jpg" alt="..." />
+                            </div>
+                        </div>
+                        <!-- Portfolio Item 3-->
+                        <div class="col-md-6 col-lg-4 mb-5">
+                            <div class="portfolio-item mx-auto" >
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus"></i>
+                                        <h3>عنوان الصورة</h3></div>
+                                </div>
+                                <img class="img-fluid" src="4.jpg" alt="..." />
+                            </div>
+                        </div>
+                        <!-- Portfolio Item 4-->
+                        <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                            <div class="portfolio-item mx-auto" >
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus"></i>
+                                        <h3>عنوان الصورة</h3></div>
+                                </div>
+                                <img class="img-fluid" src="4.jpg" alt="..." />
+                            </div>
+                        </div>
+                        <!-- Portfolio Item 5-->
+                        <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                            <div class="portfolio-item mx-auto" >
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus"></i>
+                                        <h3>عنوان الصورة</h3></div>
+                                </div>
+                                <img class="img-fluid" src="4.jpg" alt="..." />
+                            </div>
+                        </div>
+                        <!-- Portfolio Item 6-->
+                        <div class="col-md-6 col-lg-4 mb-5 ">
+                            <div class="portfolio-item mx-auto" >
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-plus"></i>
+                                        <h3>عنوان الصورة</h3></div>
+                                </div>
+                                <img class="img-fluid" src="4.jpg" alt="..." />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>        
+                
+                    
+                
+                   
+                      
+                
+        </section>
+
+
+
+          
+
+          <div id='aboutus' class="about-container">
+            <section class="about-us">
+                <div class="about-content">
+                  <h2>من نحن؟</h2>
+                  <p>
+                    شركة مطعمك هي مطعم  تأسس في عام2020 بهدف توفير افضل واجود انواع الطعام والذه في كافة انحاء العراق وباسعار
+                     رمزية ليتسنى لكافة ابناء الشعب الاكل لدينا ونهدف لنصبح رقم واحد في العراق 
+                  </p>
+                </div>
+                <img src="4.jpg" alt="" />
+            </div>
+              </section >
+
+            </div>
+
+
+
+           
+
+
+
+
+
+
+
+
+
+            <section id="contactus" class="contact-us">
+              <h2 >تواصل معنا</h2>
+              <form>
+                <label for="name">  اسمك</label>
+                <input type="text" id="name" name="name"  style="color: black;"/>
+                <label for="email">بريدك الالكتروني</label>
+                <input type="email" id="email" name="email" style="color: black;"/>
+                <label for="msg" >رسالتك لنا</label>
+                <textarea name="message" id="msg" cols="30" rows="5"  style="color: black; "></textarea>
+              <button class="btn" type='submit' > إرسال</button>
+              </form>
+            </section>
+            <footer>
+                <p>المعلومات أعلاه خياليه ولا تمثل أي شركة حقيقية. 2020 </p>
+                <br>
+                <br>
+                <div class="col social text-center">
+                
+                  <p class="pull-left"><a style="color:white;" href="#">رجوع الى الاعلى</a></p>
+              
+                  
+                 </div>
+            </footer>
+          </div>
+         
+      </body>
+    </html>
